@@ -1,0 +1,97 @@
+.pins-grid{
+    display: flex;
+    width: 1569px;
+    padding: 0px 8px;
+    display: flex;
+    justify-content: space-between;
+}
+.grid-1 img, .grid-2 img, .grid-3 img, .grid-4 img,.grid-5 img,.grid-6 img{
+    border-radius: 20px;
+}
+ .grid-1, .grid-2, .grid-3, .grid-4,.grid-5,.grid-6{
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+} 
+.pins-grid img{
+    width: 245.5px;
+}
+/* hovering buttons */
+.pin{
+    position: relative;
+}
+.pin img{
+    display: block;
+}
+.save-btn{
+    display: inline-block; 
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    padding: 12px 16px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: rgb(204, 0, 31);
+    font-family: 'Pin-Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', Helvetica, 'ヒラギノ角ゴ Pro W3', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', Arial, sans-serif !important;
+    opacity: 0;
+    transition: opacity 0.15s;
+}
+.pin:hover img{
+    filter: brightness(70%);
+    cursor: pointer;
+}
+.pin:hover .save-btn, .pin:hover .more-option, .pin:hover .board{
+    opacity: 1;
+    cursor: pointer;
+}
+.more-option img{
+    width: 16px;
+    height: 16px;
+    
+}
+.more-option{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    width: 36px;
+    height: 36px;
+    bottom: 20px;
+    right: 10px;
+    border-radius: 10px;
+    border: none;
+    opacity: 0;
+    transition: opacity 0.15s;
+    
+}
+.board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    border: none;
+    padding: 16px 8px;
+    fill: white;
+    opacity: 0;
+    border-radius: 12px;
+    font-family: 'Pin-Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', Helvetica, 'ヒラギノ角ゴ Pro W3', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', Arial, sans-serif !important;
+    gap: 4px;
+    justify-content: space-between;
+    font-size: 16px;
+    color: white;
+    font-weight: 700;
+    padding: 12px 16px;
+}
+
+
+
+.board:hover{
+    background-color: rgba(34, 36, 39, 0.95);
+    opacity: 1;
+}

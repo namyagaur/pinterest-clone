@@ -1,0 +1,1152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Pinterest Clone</title>
+
+    <link rel="icon" type="image/png" href="img/pinterest.png">
+
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="general.css">
+    <link rel="stylesheet" href="ideas.css">
+    <link rel="stylesheet" href="pinsGrid.css">
+
+</head>
+<body>
+        <nav class="first-nav">
+            <div class="left-nav">
+                <div class="inside-left-nav">
+                    <img src="img/pinterest.png" alt="">
+                </div>
+                <div class="inside-left-nav">
+                    <p>Home feed</p>
+                </div>
+                <div class="inside-left-nav">
+                    <svg aria-label="Dynamic badge drop-down menu button" class="gUZ U9O kVc Uvi" height="12" role="img" viewBox="0 0 24 24" width="12"><path d="M22 4H2v2h20zm0 7H2v2h20zM2 20h20v-2H2z"></path></svg>
+                </div>
+                
+                
+            
+            </div>
+            <div class="right-nav">
+                    <div class="pfp-button">
+                        <div class="button-pfp"></div>
+                        <button>
+                            <div class="inside-buttons-pfp">
+                                <img src="img/dp.jpg" alt="">
+                            </div>
+                            <div class="inside-buttons-name">
+                                <p>namya</p>
+                            </div>
+                            <div class="inside-buttons-symbol">
+                                <svg aria-label="Account switcher arrow icon" class="gUZ U9O kVc Uvi" height="12" role="img" viewBox="0 0 24 24" width="12"><path d="M23.7 8.7 12 20.42.3 8.71l1.4-1.42L12 17.6 22.3 7.3z"></path></svg>
+                            </div>
+                        </button>
+                    </div>
+
+                    <div class="search">
+                        <button><svg aria-hidden="true" aria-label="" class="gUZ U9O kVc BNH" height="24" role="img" viewBox="0 0 24 24" width="24"><path d="M17.33 18.74a10 10 0 1 1 1.41-1.41l4.47 4.47-1.41 1.41zM11 3a8 8 0 1 0 0 16 8 8 0 0 0 0-16"></path></svg>
+                        
+                    </button>
+                    </div>
+                    <div class="bell">
+                        <button><svg aria-hidden="true" aria-label="" class="gUZ U9O kVc BNH" height="24" role="img" viewBox="0 0 24 24" width="24"><path d="M16 19h8v-2h-.34a3.15 3.15 0 0 1-3.12-2.76l-.8-6.41a7.8 7.8 0 0 0-15.48 0l-.8 6.41A3.15 3.15 0 0 1 .34 17H0v2h8v1h.02a3.4 3.4 0 0 0 3.38 3h1.2a3.4 3.4 0 0 0 3.38-3H16zm1.75-10.92.8 6.4c.12.95.5 1.81 1.04 2.52H4.4c.55-.7.92-1.57 1.04-2.51l.8-6.41a5.8 5.8 0 0 1 11.5 0M13.4 19c.33 0 .6.27.6.6 0 .77-.63 1.4-1.4 1.4h-1.2a1.4 1.4 0 0 1-1.4-1.4c0-.33.27-.6.6-.6z"></path></svg>
+                        
+                    </button>
+                    <div class="bell-tool">Notifications</div>
+                    </div>
+                   
+                    <div class="message">
+                        <button><svg aria-hidden="true" aria-label="" class="Hn_ gUZ U9O kVc BNH" height="24" role="img" viewBox="0 0 24 24" width="24"><path d="M7 10.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3m5 3a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3m5 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3m-5 10c1.8 0 3.5-.41 5-1.15l3.69.65A2 2 0 0 0 23 20.7l-.65-3.7A11.5 11.5 0 1 0 12 23.5m8.55-7.36-.28.58.76 4.31-4.31-.76-.58.28q-1.89.93-4.14.95a9.5 9.5 0 1 1 8.55-5.36"></path></svg>
+                       
+                        </button>
+                         <div class="message-tool">Messages</div>
+                        
+                    </div>
+                    <div class="engagement">
+                        <button><svg aria-hidden="true" aria-label="" class="gUZ U9O kVc BNH" height="24" role="img" viewBox="0 0 24 24" width="24"><path d="m5 18.54-.7-.12A4 4 0 0 1 1 14.48V9.52a4 4 0 0 1 3.3-3.94l11.57-2.04A2.6 2.6 0 0 0 18 1h2v6q.8 0 1.53.38.74.38 1.3 1.08t.87 1.63a6 6 0 0 1 0 3.82q-.3.92-.87 1.63-.56.7-1.3 1.08Q20.8 17 20 17v6h-2c0-1.25-.9-2.32-2.13-2.54l-3.59-.63-.6 1.35a3 3 0 0 1-3.8 1.6l-.93-.36A3 3 0 0 1 5 19.62zM18 4.78q-.79.54-1.78.73L7 7.13v9.74l9.22 1.62q1 .19 1.78.73zM5 16.51V7.5l-.35.06A2 2 0 0 0 3 9.52v4.96a2 2 0 0 0 1.65 1.97zm2 2.39v.71a1 1 0 0 0 .65.94l.94.35a1 1 0 0 0 1.26-.53l.4-.9zm13.77-9.67c-.38-.24-.77.13-.77.58v4.38c0 .45.39.82.77.58q.37-.23.64-.65.29-.42.44-.97a4.3 4.3 0 0 0 0-2.3q-.15-.55-.44-.97-.27-.42-.64-.65"></path></svg>
+                        
+                        </button>
+                        <div class="engagement-tool">Engagement</div>    
+                    </div>
+
+                    <div class="pfp">
+                        <button><img src="img/dp.jpg" alt="">
+                    </button>
+                    <div class="pfp-tool">Your Profile</div>
+                    </div>
+
+                    <div class="more">
+                        <button><svg aria-hidden="true" aria-label="" class="gUZ U9O kVc BNH" height="24" role="img" viewBox="0 0 24 24" width="24"><path d="M23.7 8.7 12 20.42.3 8.71l1.4-1.42L12 17.6 22.3 7.3z"></path></svg>
+                        </button>
+                        <div class="more-tool">Accounts and more options</div>
+                    </div>
+                    
+                   
+        
+        </nav>
+        <!-- Next Heading -->
+    <div class="second-nav">
+        <div class="for-you">
+            <p>For you</p>
+        </div>
+        <div class="explore">
+            Explore
+        </div>
+    </div>
+
+
+
+    <!--Ideas  -->
+    <div class="ideas">
+        <div class="ideas-box">
+
+            <div class="img-box">
+                
+                <div class="img-1">
+                    <img src="img/i (1).jpg" alt="">
+                </div>
+                <div class="img-2">
+                    <img src="img/i (10).jpg" alt="">
+                </div>
+                <div class="img-3">
+                    <img src="img/i (11).jpg" alt="">
+                </div>
+
+            </div>
+
+            <div class="text">
+                <div class="text-1">
+                <p>More ideas for</p>
+            </div>
+            <div class="text-2">
+               <p>cara mia</p>
+            </div>
+            </div>
+            
+        </div>
+        <div class="ideas-box">
+
+            <div class="img-box">
+                
+                <div class="img-1">
+                    <img src="img/i (3).jpg" alt="">
+                </div>
+                <div class="img-2">
+                    <img src="img/i (4).jpg" alt="">
+                </div>
+                <div class="img-3">
+                    <img src="img/i (5).jpg" alt="">
+                </div>
+
+            </div>
+
+            <div class="text">
+                <div class="text-1">
+                <p>More ideas for</p>
+            </div>
+            <div class="text-2">
+               <p>penpals</p>
+            </div>
+            </div>
+            
+        </div>
+        <div class="ideas-box">
+
+            <div class="img-box">
+                
+                <div class="img-1">
+                    <img src="img/i (7).jpg" alt="">
+                </div>
+                <div class="img-2">
+                    <img src="img/i (8).jpg" alt="">
+                </div>
+                <div class="img-3">
+                    <img src="img/i (9).jpg" alt="">
+                </div>
+
+            </div>
+
+            <div class="text">
+                <div class="text-1">
+                <p>More ideas for</p>
+            </div>
+            <div class="text-2">
+               <p>shoes hunting</p>
+            </div>
+            </div>
+            
+        </div>
+        <div class="ideas-box">
+
+            <div class="img-box">
+                
+                <div class="img-1">
+                    <img src="img/i (13).jpg" alt="">
+                </div>
+                <div class="img-2">
+                    <img src="img/i (14).jpg" alt="">
+                </div>
+                <div class="img-3">
+                    <img src="img/i (15).jpg" alt="">
+                </div>
+
+            </div>
+
+            <div class="text">
+                <div class="text-1">
+                <p>More ideas for</p>
+            </div>
+            <div class="text-2">
+               <p>jewels place</p>
+            </div>
+            </div>
+            
+        </div>
+        <div class="ideas-box">
+
+            <div class="img-box">
+                
+                <div class="img-1">
+                    <img src="img/i (16).jpg" alt="">
+                </div>
+                <div class="img-2">
+                    <img src="img/i (17).jpg" alt="">
+                </div>
+                <div class="img-3">
+                    <img src="img/i (18).jpg" alt="">
+                </div>
+
+            </div>
+
+            <div class="text">
+                <div class="text-1">
+                <p>More ideas for</p>
+            </div>
+            <div class="text-2">
+               <p>posters</p>
+            </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <!-- Pins-grid -->
+     <div class="pins-grid">
+        <div class="grid-1">
+            
+            <div class="pin">
+                <img src="img/i (1).jpg" alt="">
+                <div class="board">
+                    <div class="board-text"><span>cara mia </span></div>
+                    <div class="board-more">
+                        <svg class="down-arrow" viewBox="0 0 24 24" width="12" height="12">
+                        <path d="M23.7 8.7 12 20.42.3 8.71l1.4-1.42L12 17.6 22.3 7.3z" fill="white"></path>
+                        </svg>
+                    </div>    
+                </div>
+                     
+                
+                <button class="save-btn">Save</button>
+                <button class="more-option"><img src="img/three-dots-svgrepo-com.svg" alt=""></button>
+            </div>
+            
+            <div class="pin">
+                <img src="img/i (2).jpg" alt="">
+                <div class="board">
+                    <div class="board-text"><span>penpals  </span></div>
+                    <div class="board-more">
+                        <svg class="down-arrow" viewBox="0 0 24 24" width="12" height="12">
+                        <path d="M23.7 8.7 12 20.42.3 8.71l1.4-1.42L12 17.6 22.3 7.3z" fill="white"></path>
+                        </svg>
+                    </div>    
+                </div>
+                <button class="save-btn">Save</button>
+                <button class="more-option"><img src="img/three-dots-svgrepo-com.svg" alt=""></button>
+            </div>
+            
+            <div class="pin">
+                <img src="img/i (3).jpg" alt="">
+                <div class="board">
+                    <div class="board-text"><span>words</span></div>
+                    <div class="board-more">
+                        <svg class="down-arrow" viewBox="0 0 24 24" width="12" height="12">
+                        <path d="M23.7 8.7 12 20.42.3 8.71l1.4-1.42L12 17.6 22.3 7.3z" fill="white"></path>
+                        </svg>
+                    </div>    
+                </div>
+                <button class="save-btn">Save</button>
+                <button class="more-option"><img src="img/three-dots-svgrepo-com.svg" alt=""></button>
+            </div>
+            
+            <div class="pin">
+                <img src="img/i (4).jpg" alt="">
+                <div class="board">
+                    <div class="board-text"><span>dolls </span></div>
+                    <div class="board-more">
+                        <svg class="down-arrow" viewBox="0 0 24 24" width="12" height="12">
+                        <path d="M23.7 8.7 12 20.42.3 8.71l1.4-1.42L12 17.6 22.3 7.3z" fill="white"></path>
+                        </svg>
+                    </div>    
+                </div>
+                <button class="save-btn">Save</button>
+                <button class="more-option"><img src="img/three-dots-svgrepo-com.svg" alt=""></button>
+            </div>
+            
+            <div class="pin">
+                <img src="img/i (5).jpg" alt="">
+                <div class="board">
+                    <div class="board-text"><span> &lt;3  </span></div>
+                    <div class="board-more">
+                        <svg class="down-arrow" viewBox="0 0 24 24" width="12" height="12">
+                        <path d="M23.7 8.7 12 20.42.3 8.71l1.4-1.42L12 17.6 22.3 7.3z" fill="white"></path>
+                        </svg>
+                    </div>    
+                </div>
+                <button class="save-btn">Save</button>
+                <button class="more-option"><img src="img/three-dots-svgrepo-com.svg" alt=""></button>
+            </div>
+             <div class="pin">
+                <img src="img/i (1).jpg" alt="">
+                <div class="board">
+                    <div class="board-text"><span>cara mia </span></div>
+                    <div class="board-more">
+                        <svg class="down-arrow" viewBox="0 0 24 24" width="12" height="12">
+                        <path d="M23.7 8.7 12 20.42.3 8.71l1.4-1.42L12 17.6 22.3 7.3z" fill="white"></path>
+                        </svg>
+                    </div>    
+                </div>
+                     
+                
+                <button class="save-btn">Save</button>
+                <button class="more-option"><img src="img/three-dots-svgrepo-com.svg" alt=""></button>
+            </div>
+            
+            <div class="pin">
+                <img src="img/i (2).jpg" alt="">
+                <div class="board">
+                    <div class="board-text"><span>penpals  </span></div>
+                    <div class="board-more">
+                        <svg class="down-arrow" viewBox="0 0 24 24" width="12" height="12">
+                        <path d="M23.7 8.7 12 20.42.3 8.71l1.4-1.42L12 17.6 22.3 7.3z" fill="white"></path>
+                        </svg>
+                    </div>    
+                </div>
+                <button class="save-btn">Save</button>
+                <button class="more-option"><img src="img/three-dots-svgrepo-com.svg" alt=""></button>
+            </div>
+            
+            <div class="pin">
+                <img src="img/i (3).jpg" alt="">
+                <div class="board">
+                    <div class="board-text"><span>words</span></div>
+                    <div class="board-more">
+                        <svg class="down-arrow" viewBox="0 0 24 24" width="12" height="12">
+                        <path d="M23.7 8.7 12 20.42.3 8.71l1.4-1.42L12 17.6 22.3 7.3z" fill="white"></path>
+                        </svg>
+                    </div>    
+                </div>
+                <button class="save-btn">Save</button>
+                <button class="more-option"><img src="img/three-dots-svgrepo-com.svg" alt=""></button>
+            </div>
+            
+            <div class="pin">
+                <img src="img/i (4).jpg" alt="">
+                <div class="board">
+                    <div class="board-text"><span>dolls </span></div>
+                    <div class="board-more">
+                        <svg class="down-arrow" viewBox="0 0 24 24" width="12" height="12">
+                        <path d="M23.7 8.7 12 20.42.3 8.71l1.4-1.42L12 17.6 22.3 7.3z" fill="white"></path>
+                        </svg>
+                    </div>    
+                </div>
+                <button class="save-btn">Save</button>
+                <button class="more-option"><img src="img/three-dots-svgrepo-com.svg" alt=""></button>
+            </div>
+            
+            <div class="pin">
+                <img src="img/i (5).jpg" alt="">
+                <div class="board">
+                    <div class="board-text"><span> &lt;3  </span></div>
+                    <div class="board-more">
+                        <svg class="down-arrow" viewBox="0 0 24 24" width="12" height="12">
+                        <path d="M23.7 8.7 12 20.42.3 8.71l1.4-1.42L12 17.6 22.3 7.3z" fill="white"></path>
+                        </svg>
+                    </div>    
+                </div>
+                <button class="save-btn">Save</button>
+                <button class="more-option"><img src="img/three-dots-svgrepo-com.svg" alt=""></button>
+            </div>
+            <div class="pin">
+                <img src="img/i (1).jpg" alt="">
+                <div class="board">
+                    <div class="board-text"><span>cara mia </span></div>
+                    <div class="board-more">
+                        <svg class="down-arrow" viewBox="0 0 24 24" width="12" height="12">
+                        <path d="M23.7 8.7 12 20.42.3 8.71l1.4-1.42L12 17.6 22.3 7.3z" fill="white"></path>
+                        </svg>
+                    </div>    
+                </div>
+                     
+                
+                <button class="save-btn">Save</button>
+                <button class="more-option"><img src="img/three-dots-svgrepo-com.svg" alt=""></button>
+            </div>
+            
+            <div class="pin">
+                <img src="img/i (2).jpg" alt="">
+                <div class="board">
+                    <div class="board-text"><span>penpals  </span></div>
+                    <div class="board-more">
+                        <svg class="down-arrow" viewBox="0 0 24 24" width="12" height="12">
+                        <path d="M23.7 8.7 12 20.42.3 8.71l1.4-1.42L12 17.6 22.3 7.3z" fill="white"></path>
+                        </svg>
+                    </div>    
+                </div>
+                <button class="save-btn">Save</button>
+                <button class="more-option"><img src="img/three-dots-svgrepo-com.svg" alt=""></button>
+            </div>
+            
+            <div class="pin">
+                <img src="img/i (3).jpg" alt="">
+                <div class="board">
+                    <div class="board-text"><span>words</span></div>
+                    <div class="board-more">
+                        <svg class="down-arrow" viewBox="0 0 24 24" width="12" height="12">
+                        <path d="M23.7 8.7 12 20.42.3 8.71l1.4-1.42L12 17.6 22.3 7.3z" fill="white"></path>
+                        </svg>
+                    </div>    
+                </div>
+                <button class="save-btn">Save</button>
+                <button class="more-option"><img src="img/three-dots-svgrepo-com.svg" alt=""></button>
+            </div>
+            
+        </div>
+        <div class="grid-2">
+            <div class="pin">
+                <img src="img/i (6).jpg" alt="">
+                <div class="board">
+                    <div class="board-text"><span> &lt;3  </span></div>
+                    <div class="board-more">
+                        <svg class="down-arrow" viewBox="0 0 24 24" width="12" height="12">
+                        <path d="M23.7 8.7 12 20.42.3 8.71l1.4-1.42L12 17.6 22.3 7.3z" fill="white"></path>
+                        </svg>
+                    </div>    
+                </div>
+                <button class="save-btn">Save</button>
+                <button class="more-option"><img src="img/three-dots-svgrepo-com.svg" alt=""></button>
+            </div>
+            
+            <div class="pin">
+                <img src="img/i (7).jpg" alt="">
+                <div class="board">
+                    <div class="board-text"><span> pfp </span></div>
+                    <div class="board-more">
+                        <svg class="down-arrow" viewBox="0 0 24 24" width="12" height="12">
+                        <path d="M23.7 8.7 12 20.42.3 8.71l1.4-1.42L12 17.6 22.3 7.3z" fill="white"></path>
+                        </svg>
+                    </div>    
+                </div>
+                <button class="save-btn">Save</button>
+                <button class="more-option"><img src="img/three-dots-svgrepo-com.svg" alt=""></button>
+            </div>
+            
+            <div class="pin">
+                <img src="img/i (8).jpg" alt="">
+                <div class="board">
+                    <div class="board-text"><span> earings  </span></div>
+                    <div class="board-more">
+                        <svg class="down-arrow" viewBox="0 0 24 24" width="12" height="12">
+                        <path d="M23.7 8.7 12 20.42.3 8.71l1.4-1.42L12 17.6 22.3 7.3z" fill="white"></path>
+                        </svg>
+                    </div>    
+                </div>
+                <button class="save-btn">Save</button>
+                <button class="more-option"><img src="img/three-dots-svgrepo-com.svg" alt=""></button>
+            </div>
+            
+            <div class="pin">
+                <img src="img/i (9).jpg" alt="">
+                <div class="board">
+                    <div class="board-text"><span> poster </span></div>
+                    <div class="board-more">
+                        <svg class="down-arrow" viewBox="0 0 24 24" width="12" height="12">
+                        <path d="M23.7 8.7 12 20.42.3 8.71l1.4-1.42L12 17.6 22.3 7.3z" fill="white"></path>
+                        </svg>
+                    </div>    
+                </div>
+                <button class="save-btn">Save</button>
+                <button class="more-option"><img src="img/three-dots-svgrepo-com.svg" alt=""></button>
+            </div>
+            
+            <div class="pin">
+                <img src="img/i (10).jpg" alt="">
+                <div class="board">
+                    <div class="board-text"><span> poster </span></div>
+                    <div class="board-more">
+                        <svg class="down-arrow" viewBox="0 0 24 24" width="12" height="12">
+                        <path d="M23.7 8.7 12 20.42.3 8.71l1.4-1.42L12 17.6 22.3 7.3z" fill="white"></path>
+                        </svg>
+                    </div>    
+                </div>
+                <button class="save-btn">Save</button>
+                <button class="more-option"><img src="img/three-dots-svgrepo-com.svg" alt=""></button>
+            </div>
+            <div class="pin">
+                <img src="img/i (6).jpg" alt="">
+                <div class="board">
+                    <div class="board-text"><span> &lt;3  </span></div>
+                    <div class="board-more">
+                        <svg class="down-arrow" viewBox="0 0 24 24" width="12" height="12">
+                        <path d="M23.7 8.7 12 20.42.3 8.71l1.4-1.42L12 17.6 22.3 7.3z" fill="white"></path>
+                        </svg>
+                    </div>    
+                </div>
+                <button class="save-btn">Save</button>
+                <button class="more-option"><img src="img/three-dots-svgrepo-com.svg" alt=""></button>
+            </div>
+            
+            <div class="pin">
+                <img src="img/i (7).jpg" alt="">
+                <div class="board">
+                    <div class="board-text"><span> pfp </span></div>
+                    <div class="board-more">
+                        <svg class="down-arrow" viewBox="0 0 24 24" width="12" height="12">
+                        <path d="M23.7 8.7 12 20.42.3 8.71l1.4-1.42L12 17.6 22.3 7.3z" fill="white"></path>
+                        </svg>
+                    </div>    
+                </div>
+                <button class="save-btn">Save</button>
+                <button class="more-option"><img src="img/three-dots-svgrepo-com.svg" alt=""></button>
+            </div>
+            
+            <div class="pin">
+                <img src="img/i (8).jpg" alt="">
+                <div class="board">
+                    <div class="board-text"><span> earings  </span></div>
+                    <div class="board-more">
+                        <svg class="down-arrow" viewBox="0 0 24 24" width="12" height="12">
+                        <path d="M23.7 8.7 12 20.42.3 8.71l1.4-1.42L12 17.6 22.3 7.3z" fill="white"></path>
+                        </svg>
+                    </div>    
+                </div>
+                <button class="save-btn">Save</button>
+                <button class="more-option"><img src="img/three-dots-svgrepo-com.svg" alt=""></button>
+            </div>
+            
+            <div class="pin">
+                <img src="img/i (9).jpg" alt="">
+                <div class="board">
+                    <div class="board-text"><span> poster </span></div>
+                    <div class="board-more">
+                        <svg class="down-arrow" viewBox="0 0 24 24" width="12" height="12">
+                        <path d="M23.7 8.7 12 20.42.3 8.71l1.4-1.42L12 17.6 22.3 7.3z" fill="white"></path>
+                        </svg>
+                    </div>    
+                </div>
+                <button class="save-btn">Save</button>
+                <button class="more-option"><img src="img/three-dots-svgrepo-com.svg" alt=""></button>
+            </div>
+            
+            <div class="pin">
+                <img src="img/i (10).jpg" alt="">
+                <div class="board">
+                    <div class="board-text"><span> poster </span></div>
+                    <div class="board-more">
+                        <svg class="down-arrow" viewBox="0 0 24 24" width="12" height="12">
+                        <path d="M23.7 8.7 12 20.42.3 8.71l1.4-1.42L12 17.6 22.3 7.3z" fill="white"></path>
+                        </svg>
+                    </div>    
+                </div>
+                <button class="save-btn">Save</button>
+                <button class="more-option"><img src="img/three-dots-svgrepo-com.svg" alt=""></button>
+            </div>
+            
+            
+        </div>
+        <div class="grid-3">
+            <div class="pin">
+                <img src="img/i (11).jpg" alt="">
+                <div class="board">
+                    <div class="board-text"><span> words </span></div>
+                    <div class="board-more">
+                        <svg class="down-arrow" viewBox="0 0 24 24" width="12" height="12">
+                        <path d="M23.7 8.7 12 20.42.3 8.71l1.4-1.42L12 17.6 22.3 7.3z" fill="white"></path>
+                        </svg>
+                    </div>    
+                </div>
+                <button class="save-btn">Save</button>
+                <button class="more-option"><img src="img/three-dots-svgrepo-com.svg" alt=""></button>
+            </div>
+            
+            <div class="pin">
+                <img src="img/i (12).jpg" alt="">
+                <div class="board">
+                    <div class="board-text"><span> shoes hunting  </span></div>
+                    <div class="board-more">
+                        <svg class="down-arrow" viewBox="0 0 24 24" width="12" height="12">
+                        <path d="M23.7 8.7 12 20.42.3 8.71l1.4-1.42L12 17.6 22.3 7.3z" fill="white"></path>
+                        </svg>
+                    </div>    
+                </div>
+                <button class="save-btn">Save</button>
+                <button class="more-option"><img src="img/three-dots-svgrepo-com.svg" alt=""></button>
+            </div>
+            
+            <div class="pin">
+                <img src="img/i (13).jpg" alt="">
+                <div class="board">
+                    <div class="board-text"><span> &lt;3  </span></div>
+                    <div class="board-more">
+                        <svg class="down-arrow" viewBox="0 0 24 24" width="12" height="12">
+                        <path d="M23.7 8.7 12 20.42.3 8.71l1.4-1.42L12 17.6 22.3 7.3z" fill="white"></path>
+                        </svg>
+                    </div>    
+                </div>
+                <button class="save-btn">Save</button>
+                <button class="more-option"><img src="img/three-dots-svgrepo-com.svg" alt=""></button>
+            </div>
+            
+            <div class="pin">
+                <img src="img/i (14).jpg" alt="">
+                <div class="board">
+                    <div class="board-text"><span> flowers  </span></div>
+                    <div class="board-more">
+                        <svg class="down-arrow" viewBox="0 0 24 24" width="12" height="12">
+                        <path d="M23.7 8.7 12 20.42.3 8.71l1.4-1.42L12 17.6 22.3 7.3z" fill="white"></path>
+                        </svg>
+                    </div>    
+                </div>
+                <button class="save-btn">Save</button>
+                <button class="more-option"><img src="img/three-dots-svgrepo-com.svg" alt=""></button>
+            </div>
+            
+            <div class="pin">
+                <img src="img/i (15).jpg" alt="">
+                <div class="board">
+                    <div class="board-text"><span> &lt;3  </span></div>
+                    <div class="board-more">
+                        <svg class="down-arrow" viewBox="0 0 24 24" width="12" height="12">
+                        <path d="M23.7 8.7 12 20.42.3 8.71l1.4-1.42L12 17.6 22.3 7.3z" fill="white"></path>
+                        </svg>
+                    </div>    
+                </div>
+                <button class="save-btn">Save</button>
+                <button class="more-option"><img src="img/three-dots-svgrepo-com.svg" alt=""></button>
+            </div>
+            <div class="pin">
+                <img src="img/i (11).jpg" alt="">
+                <div class="board">
+                    <div class="board-text"><span> words </span></div>
+                    <div class="board-more">
+                        <svg class="down-arrow" viewBox="0 0 24 24" width="12" height="12">
+                        <path d="M23.7 8.7 12 20.42.3 8.71l1.4-1.42L12 17.6 22.3 7.3z" fill="white"></path>
+                        </svg>
+                    </div>    
+                </div>
+                <button class="save-btn">Save</button>
+                <button class="more-option"><img src="img/three-dots-svgrepo-com.svg" alt=""></button>
+            </div>
+            
+            <div class="pin">
+                <img src="img/i (12).jpg" alt="">
+                <div class="board">
+                    <div class="board-text"><span> shoes hunting  </span></div>
+                    <div class="board-more">
+                        <svg class="down-arrow" viewBox="0 0 24 24" width="12" height="12">
+                        <path d="M23.7 8.7 12 20.42.3 8.71l1.4-1.42L12 17.6 22.3 7.3z" fill="white"></path>
+                        </svg>
+                    </div>    
+                </div>
+                <button class="save-btn">Save</button>
+                <button class="more-option"><img src="img/three-dots-svgrepo-com.svg" alt=""></button>
+            </div>
+            
+            <div class="pin">
+                <img src="img/i (13).jpg" alt="">
+                <div class="board">
+                    <div class="board-text"><span> &lt;3  </span></div>
+                    <div class="board-more">
+                        <svg class="down-arrow" viewBox="0 0 24 24" width="12" height="12">
+                        <path d="M23.7 8.7 12 20.42.3 8.71l1.4-1.42L12 17.6 22.3 7.3z" fill="white"></path>
+                        </svg>
+                    </div>    
+                </div>
+                <button class="save-btn">Save</button>
+                <button class="more-option"><img src="img/three-dots-svgrepo-com.svg" alt=""></button>
+            </div>
+            
+            <div class="pin">
+                <img src="img/i (14).jpg" alt="">
+                <div class="board">
+                    <div class="board-text"><span> flowers  </span></div>
+                    <div class="board-more">
+                        <svg class="down-arrow" viewBox="0 0 24 24" width="12" height="12">
+                        <path d="M23.7 8.7 12 20.42.3 8.71l1.4-1.42L12 17.6 22.3 7.3z" fill="white"></path>
+                        </svg>
+                    </div>    
+                </div>
+                <button class="save-btn">Save</button>
+                <button class="more-option"><img src="img/three-dots-svgrepo-com.svg" alt=""></button>
+            </div>
+            
+            <div class="pin">
+                <img src="img/i (15).jpg" alt="">
+                <div class="board">
+                    <div class="board-text"><span> &lt;3  </span></div>
+                    <div class="board-more">
+                        <svg class="down-arrow" viewBox="0 0 24 24" width="12" height="12">
+                        <path d="M23.7 8.7 12 20.42.3 8.71l1.4-1.42L12 17.6 22.3 7.3z" fill="white"></path>
+                        </svg>
+                    </div>    
+                </div>
+                <button class="save-btn">Save</button>
+                <button class="more-option"><img src="img/three-dots-svgrepo-com.svg" alt=""></button>
+            </div>
+            <div class="pin">
+                <img src="img/i (12).jpg" alt="">
+                <div class="board">
+                    <div class="board-text"><span> shoes hunting  </span></div>
+                    <div class="board-more">
+                        <svg class="down-arrow" viewBox="0 0 24 24" width="12" height="12">
+                        <path d="M23.7 8.7 12 20.42.3 8.71l1.4-1.42L12 17.6 22.3 7.3z" fill="white"></path>
+                        </svg>
+                    </div>    
+                </div>
+                <button class="save-btn">Save</button>
+                <button class="more-option"><img src="img/three-dots-svgrepo-com.svg" alt=""></button>
+            </div>
+        </div>
+        <div class="grid-4">
+            <div class="pin">
+                <img src="img/i (16).jpg" alt="">
+                <div class="board">
+                    <div class="board-text"><span> flowers  </span></div>
+                    <div class="board-more">
+                        <svg class="down-arrow" viewBox="0 0 24 24" width="12" height="12">
+                        <path d="M23.7 8.7 12 20.42.3 8.71l1.4-1.42L12 17.6 22.3 7.3z" fill="white"></path>
+                        </svg>
+                    </div>    
+                </div>
+                <button class="save-btn">Save</button>
+                <button class="more-option"><img src="img/three-dots-svgrepo-com.svg" alt=""></button>
+            </div>
+            <div class="pin">
+                <img src="img/i (22).jpg" alt="">
+                <div class="board">
+                    <div class="board-text"><span> &lt;3  </span></div>
+                    <div class="board-more">
+                        <svg class="down-arrow" viewBox="0 0 24 24" width="12" height="12">
+                        <path d="M23.7 8.7 12 20.42.3 8.71l1.4-1.42L12 17.6 22.3 7.3z" fill="white"></path>
+                        </svg>
+                    </div>    
+                </div>
+                <button class="save-btn">Save</button>
+                <button class="more-option"><img src="img/three-dots-svgrepo-com.svg" alt=""></button>
+            </div>
+            
+            <div class="pin">
+                <img src="img/i (18).jpg" alt="">
+                <div class="board">
+                    <div class="board-text"><span> shoes hunting  </span></div>
+                    <div class="board-more">
+                        <svg class="down-arrow" viewBox="0 0 24 24" width="12" height="12">
+                        <path d="M23.7 8.7 12 20.42.3 8.71l1.4-1.42L12 17.6 22.3 7.3z" fill="white"></path>
+                        </svg>
+                    </div>    
+                </div>
+                <button class="save-btn">Save</button>
+                <button class="more-option"><img src="img/three-dots-svgrepo-com.svg" alt=""></button>
+            </div>
+            
+            <div class="pin">
+                <img src="img/i (19).jpg" alt="">
+                <div class="board">
+                    <div class="board-text"><span> poster </span></div>
+                    <div class="board-more">
+                        <svg class="down-arrow" viewBox="0 0 24 24" width="12" height="12">
+                        <path d="M23.7 8.7 12 20.42.3 8.71l1.4-1.42L12 17.6 22.3 7.3z" fill="white"></path>
+                        </svg>
+                    </div>    
+                </div>
+                <button class="save-btn">Save</button>
+                <button class="more-option"><img src="img/three-dots-svgrepo-com.svg" alt=""></button>
+            </div>
+            
+            <div class="pin">
+                <img src="img/i (20).jpg" alt="">
+                <div class="board">
+                    <div class="board-text"><span> &lt;3  </span></div>
+                    <div class="board-more">
+                        <svg class="down-arrow" viewBox="0 0 24 24" width="12" height="12">
+                        <path d="M23.7 8.7 12 20.42.3 8.71l1.4-1.42L12 17.6 22.3 7.3z" fill="white"></path>
+                        </svg>
+                    </div>    
+                </div>
+                <button class="save-btn">Save</button>
+                <button class="more-option"><img src="img/three-dots-svgrepo-com.svg" alt=""></button>
+            </div>
+            <div class="pin">
+                <img src="img/i (16).jpg" alt="">
+                <div class="board">
+                    <div class="board-text"><span> flowers  </span></div>
+                    <div class="board-more">
+                        <svg class="down-arrow" viewBox="0 0 24 24" width="12" height="12">
+                        <path d="M23.7 8.7 12 20.42.3 8.71l1.4-1.42L12 17.6 22.3 7.3z" fill="white"></path>
+                        </svg>
+                    </div>    
+                </div>
+                <button class="save-btn">Save</button>
+                <button class="more-option"><img src="img/three-dots-svgrepo-com.svg" alt=""></button>
+            </div>
+            <div class="pin">
+                <img src="img/i (22).jpg" alt="">
+                <div class="board">
+                    <div class="board-text"><span> &lt;3  </span></div>
+                    <div class="board-more">
+                        <svg class="down-arrow" viewBox="0 0 24 24" width="12" height="12">
+                        <path d="M23.7 8.7 12 20.42.3 8.71l1.4-1.42L12 17.6 22.3 7.3z" fill="white"></path>
+                        </svg>
+                    </div>    
+                </div>
+                <button class="save-btn">Save</button>
+                <button class="more-option"><img src="img/three-dots-svgrepo-com.svg" alt=""></button>
+            </div>
+            
+            <div class="pin">
+                <img src="img/i (18).jpg" alt="">
+                <div class="board">
+                    <div class="board-text"><span> shoes hunting  </span></div>
+                    <div class="board-more">
+                        <svg class="down-arrow" viewBox="0 0 24 24" width="12" height="12">
+                        <path d="M23.7 8.7 12 20.42.3 8.71l1.4-1.42L12 17.6 22.3 7.3z" fill="white"></path>
+                        </svg>
+                    </div>    
+                </div>
+                <button class="save-btn">Save</button>
+                <button class="more-option"><img src="img/three-dots-svgrepo-com.svg" alt=""></button>
+            </div>
+            
+            <div class="pin">
+                <img src="img/i (19).jpg" alt="">
+                <div class="board">
+                    <div class="board-text"><span> poster </span></div>
+                    <div class="board-more">
+                        <svg class="down-arrow" viewBox="0 0 24 24" width="12" height="12">
+                        <path d="M23.7 8.7 12 20.42.3 8.71l1.4-1.42L12 17.6 22.3 7.3z" fill="white"></path>
+                        </svg>
+                    </div>    
+                </div>
+                <button class="save-btn">Save</button>
+                <button class="more-option"><img src="img/three-dots-svgrepo-com.svg" alt=""></button>
+            </div>
+            
+            <div class="pin">
+                <img src="img/i (20).jpg" alt="">
+                <div class="board">
+                    <div class="board-text"><span> &lt;3  </span></div>
+                    <div class="board-more">
+                        <svg class="down-arrow" viewBox="0 0 24 24" width="12" height="12">
+                        <path d="M23.7 8.7 12 20.42.3 8.71l1.4-1.42L12 17.6 22.3 7.3z" fill="white"></path>
+                        </svg>
+                    </div>    
+                </div>
+                <button class="save-btn">Save</button>
+                <button class="more-option"><img src="img/three-dots-svgrepo-com.svg" alt=""></button>
+            </div>
+            <div class="pin">
+                <img src="img/i (15).jpg" alt="">
+                <div class="board">
+                    <div class="board-text"><span> &lt;3  </span></div>
+                    <div class="board-more">
+                        <svg class="down-arrow" viewBox="0 0 24 24" width="12" height="12">
+                        <path d="M23.7 8.7 12 20.42.3 8.71l1.4-1.42L12 17.6 22.3 7.3z" fill="white"></path>
+                        </svg>
+                    </div>    
+                </div>
+                <button class="save-btn">Save</button>
+                <button class="more-option"><img src="img/three-dots-svgrepo-com.svg" alt=""></button>
+            </div>
+        </div>
+        <div class="grid-5">
+            <div class="pin">
+                <img src="img/i (23).jpg" alt="">
+                <div class="board">
+                    <div class="board-text"><span> anklets  </span></div>
+                    <div class="board-more">
+                        <svg class="down-arrow" viewBox="0 0 24 24" width="12" height="12">
+                        <path d="M23.7 8.7 12 20.42.3 8.71l1.4-1.42L12 17.6 22.3 7.3z" fill="white"></path>
+                        </svg>
+                    </div>    
+                </div>
+                <button class="save-btn">Save</button>
+                <button class="more-option"><img src="img/three-dots-svgrepo-com.svg" alt=""></button>
+            </div>
+            <div class="pin">
+                <img src="img/i (24).jpg" alt="">
+                <div class="board">
+                    <div class="board-text"><span> &lt;3  </span></div>
+                    <div class="board-more">
+                        <svg class="down-arrow" viewBox="0 0 24 24" width="12" height="12">
+                        <path d="M23.7 8.7 12 20.42.3 8.71l1.4-1.42L12 17.6 22.3 7.3z" fill="white"></path>
+                        </svg>
+                    </div>    
+                </div>
+                <button class="save-btn">Save</button>
+                <button class="more-option"><img src="img/three-dots-svgrepo-com.svg" alt=""></button>
+            </div>
+            <div class="pin">
+                <img src="img/i (25).jpg" alt="">
+                <div class="board">
+                    <div class="board-text"><span> poster  </span></div>
+                    <div class="board-more">
+                        <svg class="down-arrow" viewBox="0 0 24 24" width="12" height="12">
+                        <path d="M23.7 8.7 12 20.42.3 8.71l1.4-1.42L12 17.6 22.3 7.3z" fill="white"></path>
+                        </svg>
+                    </div>    
+                </div>
+                <button class="save-btn">Save</button>
+                <button class="more-option"><img src="img/three-dots-svgrepo-com.svg" alt=""></button>
+            </div>
+            <div class="pin">
+                <img src="img/i (26).jpg" alt="">
+                <div class="board">
+                    <div class="board-text"><span> &lt;3  </span></div>
+                    <div class="board-more">
+                        <svg class="down-arrow" viewBox="0 0 24 24" width="12" height="12">
+                        <path d="M23.7 8.7 12 20.42.3 8.71l1.4-1.42L12 17.6 22.3 7.3z" fill="white"></path>
+                        </svg>
+                    </div>    
+                </div>
+                <button class="save-btn">Save</button>
+                <button class="more-option"><img src="img/three-dots-svgrepo-com.svg" alt=""></button>
+            </div>
+            <div class="pin">
+                <img src="img/i (27).jpg" alt="">
+                <div class="board">
+                    <div class="board-text"><span> poster  </span></div>
+                    <div class="board-more">
+                        <svg class="down-arrow" viewBox="0 0 24 24" width="12" height="12">
+                        <path d="M23.7 8.7 12 20.42.3 8.71l1.4-1.42L12 17.6 22.3 7.3z" fill="white"></path>
+                        </svg>
+                    </div>    
+                </div>
+                <button class="save-btn">Save</button>
+                <button class="more-option"><img src="img/three-dots-svgrepo-com.svg" alt=""></button>
+            </div>
+            <div class="pin">
+                <img src="img/i (23).jpg" alt="">
+                <div class="board">
+                    <div class="board-text"><span> anklets  </span></div>
+                    <div class="board-more">
+                        <svg class="down-arrow" viewBox="0 0 24 24" width="12" height="12">
+                        <path d="M23.7 8.7 12 20.42.3 8.71l1.4-1.42L12 17.6 22.3 7.3z" fill="white"></path>
+                        </svg>
+                    </div>    
+                </div>
+                <button class="save-btn">Save</button>
+                <button class="more-option"><img src="img/three-dots-svgrepo-com.svg" alt=""></button>
+            </div>
+            <div class="pin">
+                <img src="img/i (24).jpg" alt="">
+                <div class="board">
+                    <div class="board-text"><span> &lt;3  </span></div>
+                    <div class="board-more">
+                        <svg class="down-arrow" viewBox="0 0 24 24" width="12" height="12">
+                        <path d="M23.7 8.7 12 20.42.3 8.71l1.4-1.42L12 17.6 22.3 7.3z" fill="white"></path>
+                        </svg>
+                    </div>    
+                </div>
+                <button class="save-btn">Save</button>
+                <button class="more-option"><img src="img/three-dots-svgrepo-com.svg" alt=""></button>
+            </div>
+            <div class="pin">
+                <img src="img/i (25).jpg" alt="">
+                <div class="board">
+                    <div class="board-text"><span> poster  </span></div>
+                    <div class="board-more">
+                        <svg class="down-arrow" viewBox="0 0 24 24" width="12" height="12">
+                        <path d="M23.7 8.7 12 20.42.3 8.71l1.4-1.42L12 17.6 22.3 7.3z" fill="white"></path>
+                        </svg>
+                    </div>    
+                </div>
+                <button class="save-btn">Save</button>
+                <button class="more-option"><img src="img/three-dots-svgrepo-com.svg" alt=""></button>
+            </div>
+            <div class="pin">
+                <img src="img/i (26).jpg" alt="">
+                <div class="board">
+                    <div class="board-text"><span> &lt;3  </span></div>
+                    <div class="board-more">
+                        <svg class="down-arrow" viewBox="0 0 24 24" width="12" height="12">
+                        <path d="M23.7 8.7 12 20.42.3 8.71l1.4-1.42L12 17.6 22.3 7.3z" fill="white"></path>
+                        </svg>
+                    </div>    
+                </div>
+                <button class="save-btn">Save</button>
+                <button class="more-option"><img src="img/three-dots-svgrepo-com.svg" alt=""></button>
+            </div>
+            <div class="pin">
+                <img src="img/i (27).jpg" alt="">
+                <div class="board">
+                    <div class="board-text"><span> poster  </span></div>
+                    <div class="board-more">
+                        <svg class="down-arrow" viewBox="0 0 24 24" width="12" height="12">
+                        <path d="M23.7 8.7 12 20.42.3 8.71l1.4-1.42L12 17.6 22.3 7.3z" fill="white"></path>
+                        </svg>
+                    </div>    
+                </div>
+                <button class="save-btn">Save</button>
+                <button class="more-option"><img src="img/three-dots-svgrepo-com.svg" alt=""></button>
+            </div>
+        </div>
+        <div class="grid-6">
+            <div class="pin">
+                <img src="img/i (33).jpg" alt="">
+                <div class="board">
+                    <div class="board-text"><span> &lt;3  </span></div>
+                    <div class="board-more">
+                        <svg class="down-arrow" viewBox="0 0 24 24" width="12" height="12">
+                        <path d="M23.7 8.7 12 20.42.3 8.71l1.4-1.42L12 17.6 22.3 7.3z" fill="white"></path>
+                        </svg>
+                    </div>    
+                </div>
+                <button class="save-btn">Save</button>
+                <button class="more-option"><img src="img/three-dots-svgrepo-com.svg" alt=""></button>
+            </div>
+            <div class="pin">
+                <img src="img/i (29).jpg" alt="">
+                <div class="board">
+                    <div class="board-text"><span> &lt;3  </span></div>
+                    <div class="board-more">
+                        <svg class="down-arrow" viewBox="0 0 24 24" width="12" height="12">
+                        <path d="M23.7 8.7 12 20.42.3 8.71l1.4-1.42L12 17.6 22.3 7.3z" fill="white"></path>
+                        </svg>
+                    </div>    
+                </div>
+                <button class="save-btn">Save</button>
+                <button class="more-option"><img src="img/three-dots-svgrepo-com.svg" alt=""></button>
+            </div>
+            <div class="pin">
+                <img src="img/i (30).jpg" alt="">
+                <div class="board">
+                    <div class="board-text"><span> &lt;3  </span></div>
+                    <div class="board-more">
+                        <svg class="down-arrow" viewBox="0 0 24 24" width="12" height="12">
+                        <path d="M23.7 8.7 12 20.42.3 8.71l1.4-1.42L12 17.6 22.3 7.3z" fill="white"></path>
+                        </svg>
+                    </div>    
+                </div>
+                <button class="save-btn">Save</button>
+                <button class="more-option"><img src="img/three-dots-svgrepo-com.svg" alt=""></button>
+            </div>
+            <div class="pin">
+                <img src="img/i (31).jpg" alt="">
+                <div class="board">
+                    <div class="board-text"><span> view  </span></div>
+                    <div class="board-more">
+                        <svg class="down-arrow" viewBox="0 0 24 24" width="12" height="12">
+                        <path d="M23.7 8.7 12 20.42.3 8.71l1.4-1.42L12 17.6 22.3 7.3z" fill="white"></path>
+                        </svg>
+                    </div>    
+                </div>
+                <button class="save-btn">Save</button>
+                <button class="more-option"><img src="img/three-dots-svgrepo-com.svg" alt=""></button>
+            </div>
+            <div class="pin">
+                <img src="img/i (32).jpg" alt="">
+                <div class="board">
+                    <div class="board-text"><span> &lt;3  </span></div>
+                    <div class="board-more">
+                        <svg class="down-arrow" viewBox="0 0 24 24" width="12" height="12">
+                        <path d="M23.7 8.7 12 20.42.3 8.71l1.4-1.42L12 17.6 22.3 7.3z" fill="white"></path>
+                        </svg>
+                    </div>    
+                </div>
+                <button class="save-btn">Save</button>
+                <button class="more-option"><img src="img/three-dots-svgrepo-com.svg" alt=""></button>
+            </div>
+            <div class="pin">
+                <img src="img/i (33).jpg" alt="">
+                <div class="board">
+                    <div class="board-text"><span> &lt;3  </span></div>
+                    <div class="board-more">
+                        <svg class="down-arrow" viewBox="0 0 24 24" width="12" height="12">
+                        <path d="M23.7 8.7 12 20.42.3 8.71l1.4-1.42L12 17.6 22.3 7.3z" fill="white"></path>
+                        </svg>
+                    </div>    
+                </div>
+                <button class="save-btn">Save</button>
+                <button class="more-option"><img src="img/three-dots-svgrepo-com.svg" alt=""></button>
+            </div>
+            <div class="pin">
+                <img src="img/i (29).jpg" alt="">
+                <div class="board">
+                    <div class="board-text"><span> &lt;3  </span></div>
+                    <div class="board-more">
+                        <svg class="down-arrow" viewBox="0 0 24 24" width="12" height="12">
+                        <path d="M23.7 8.7 12 20.42.3 8.71l1.4-1.42L12 17.6 22.3 7.3z" fill="white"></path>
+                        </svg>
+                    </div>    
+                </div>
+                <button class="save-btn">Save</button>
+                <button class="more-option"><img src="img/three-dots-svgrepo-com.svg" alt=""></button>
+            </div>
+            <div class="pin">
+                <img src="img/i (30).jpg" alt="">
+                <div class="board">
+                    <div class="board-text"><span> &lt;3  </span></div>
+                    <div class="board-more">
+                        <svg class="down-arrow" viewBox="0 0 24 24" width="12" height="12">
+                        <path d="M23.7 8.7 12 20.42.3 8.71l1.4-1.42L12 17.6 22.3 7.3z" fill="white"></path>
+                        </svg>
+                    </div>    
+                </div>
+                <button class="save-btn">Save</button>
+                <button class="more-option"><img src="img/three-dots-svgrepo-com.svg" alt=""></button>
+            </div>
+            <div class="pin">
+                <img src="img/i (31).jpg" alt="">
+                <div class="board">
+                    <div class="board-text"><span> view  </span></div>
+                    <div class="board-more">
+                        <svg class="down-arrow" viewBox="0 0 24 24" width="12" height="12">
+                        <path d="M23.7 8.7 12 20.42.3 8.71l1.4-1.42L12 17.6 22.3 7.3z" fill="white"></path>
+                        </svg>
+                    </div>    
+                </div>
+                <button class="save-btn">Save</button>
+                <button class="more-option"><img src="img/three-dots-svgrepo-com.svg" alt=""></button>
+            </div>
+            <div class="pin">
+                <img src="img/i (32).jpg" alt="">
+                <div class="board">
+                    <div class="board-text"><span> &lt;3  </span></div>
+                    <div class="board-more">
+                        <svg class="down-arrow" viewBox="0 0 24 24" width="12" height="12">
+                        <path d="M23.7 8.7 12 20.42.3 8.71l1.4-1.42L12 17.6 22.3 7.3z" fill="white"></path>
+                        </svg>
+                    </div>    
+                </div>
+                <button class="save-btn">Save</button>
+                <button class="more-option"><img src="img/three-dots-svgrepo-com.svg" alt=""></button>
+            </div>
+            <div class="pin">
+                <img src="img/i (15).jpg" alt="">
+                <div class="board">
+                    <div class="board-text"><span> &lt;3  </span></div>
+                    <div class="board-more">
+                        <svg class="down-arrow" viewBox="0 0 24 24" width="12" height="12">
+                        <path d="M23.7 8.7 12 20.42.3 8.71l1.4-1.42L12 17.6 22.3 7.3z" fill="white"></path>
+                        </svg>
+                    </div>    
+                </div>
+                <button class="save-btn">Save</button>
+                <button class="more-option"><img src="img/three-dots-svgrepo-com.svg" alt=""></button>
+            </div>
+        </div>
+
+     </div>
+</body>
+</html>

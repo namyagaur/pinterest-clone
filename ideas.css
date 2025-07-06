@@ -1,0 +1,112 @@
+.ideas{
+    height: 142px;
+    margin-top: 16px;
+    margin-bottom: 8px;
+    display: flex;
+    margin-left: 40px;
+}
+.ideas-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 299px;
+    height: 110px;
+    border-radius: 15px;
+    margin-right: 8px;
+}
+.ideas-box:nth-child(1){
+        background-color: rgb(173, 148, 148);
+}
+
+.ideas-box:nth-child(2){
+    background-color: rgb(148, 169, 173);
+}
+.ideas-box:nth-child(3){
+    background-color: rgb(169, 148, 173);
+}
+.ideas-box:nth-child(4){
+    background-color: rgb(166, 173, 148);
+}
+.ideas-box:nth-child(5){
+    background-color: rgb(153, 148, 173);
+}
+
+.img-box{
+    display: flex;
+    width: 112px;
+    height: 94px;
+}
+.img-box img{
+    height: 72px;
+    width: 54px;
+     border-radius: 20px;
+     border: 1px solid white;
+}
+.img-1,.img-2,.img-3{
+    padding-top: 15px;
+        height: 72px;
+    width: 54px;
+    margin-left: 10px; 
+}
+.img-1{
+    transform: rotate(-15deg);
+    position: absolute;
+}
+.img-2{
+    transform: rotate(0deg);
+    position: relative;
+    left: 15px;
+    bottom: 2px;
+}
+.img-3{
+    transform: rotate(15deg);
+    position: relative;
+    right: 30px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    height: 94px;
+    width: 155px;
+    justify-content: center;
+    margin-left: 8px;
+
+}
+
+.text-1 p{
+    line-height: 19.6px;
+    margin: 0;
+    font-weight: 400;
+    height: 19.54px;
+    font-size: 14px;
+     font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,Helvetica,ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3,Hiragino Kaku Gothic Pro,ãƒ¡ã‚¤ãƒªã‚ª,Meiryo,ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+}
+.text-2 p{
+    line-height: 28px;
+    margin: 0;
+    font-size: 28px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,Helvetica,ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3,Hiragino Kaku Gothic Pro,ãƒ¡ã‚¤ãƒªã‚ª,Meiryo,ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+}
+
+/* hovering */
+.ideas-box:hover{
+    filter: brightness(80%);
+    cursor: pointer;
+}
+
+
+.ideas-box:hover .img-1 img{
+    transform: rotate(-10deg);
+}
+.ideas-box:hover .img-2 img{
+    transform: translateY(-5px);
+}
+.ideas-box:hover .img-3 img{
+    transform: rotate(10deg);
+}
+.ideas-box img{
+    transition: transform 0.2s ease-in-out;
+}
